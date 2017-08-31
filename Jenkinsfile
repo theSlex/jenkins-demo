@@ -28,4 +28,8 @@ node {
         junit allowEmptyResults: true, testResults: '**/target/**/TEST*.xml'
     }
 
+    stage('Holla') {
+         echo 'Hello World!'
+    }
+
 }
